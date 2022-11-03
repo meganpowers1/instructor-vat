@@ -1,6 +1,6 @@
 # Multi-Stage Build
 # base image and alias it as 'build'
-FROM node:17-alpine # todo
+FROM node:17-alpine as build
 # change into a folder called /app
 WORKDIR /app
 
