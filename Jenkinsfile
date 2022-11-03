@@ -1,6 +1,6 @@
 pipeline{
  environment {
-        registry = "mpow8/vatcal"
+        registry = "mpow8/vatcalc"
         registryCredentials = "dockerhub_id"
         dockerImage = ""
     }
